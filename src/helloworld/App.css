@@ -1,0 +1,37 @@
+.btn1 {
+border-radius: 8px;
+border: 1px solid transparent;
+padding: 0.6em 1.2em;
+font-size: 1em;
+width: 150px;
+font-weight: 500;
+font-family: inherit;
+background-color: #1a1a1a;
+cursor: pointer;
+transition: border-color 0.25s;
+}
+.btn1:hover {
+border-color: #151516;
+}
+.btn1:focus,
+.btn1:focus-visible {
+outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+    color: #213547;
+    background-color: #ffffff;
+}
+a:hover {
+    color: #747bff;
+}
+.btn1 {
+    background-color: #dfd8d8;
+    margin-right: 4px;
+}
+}
+.hello{
+    display: flex;
+    justify-content: left;
+}

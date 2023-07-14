@@ -1,0 +1,47 @@
+.btnConvert {
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    width: 150px;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+.btnConvert:hover {
+    border-color: #000;
+}
+.btnConvert:focus,
+.btnConvert:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    .btnConvert {
+        background-color: #fff;
+    }
+}
+.inputAmount{
+    font-size: 28px;
+    border-radius: 4px;
+    border: 1px solid #000;
+}
+.selectCur{
+    font-size: 18px;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid #151516;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+    
